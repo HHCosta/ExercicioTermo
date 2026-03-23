@@ -8,13 +8,13 @@ while a ==1:
     valor = float(input("Coloque o valor da unidade: "))
     if options == 1:
         resultado = valor/9.807
-        print(valor , "N = "+"% .4f" % resultado + "m²")
+        print(valor , "N = "+"% .4f" % resultado + "kgf")
     elif options == 2:
         resultado = valor/100
-        print(valor , "kPa = "+"% .4f" % resultado + "m²")
+        print(valor , "kPa = "+"% .4f" % resultado + "bar")
     elif options == 3:
         resultado = valor/14.504
-        print(valor , "PSI = "+"% .4f" % resultado + "m²")
+        print(valor , "PSI = "+"% .4f" % resultado + "bar")
     elif options == 4:
         resultado = valor/10000
         print(valor,"cm² = % .4f" % resultado + "m²")
